@@ -1,0 +1,94 @@
+.App {
+  min-height: 100vh;
+}
+
+.page-title {
+  margin-bottom: 20px;
+  color: #333;
+  border-bottom: 2px solid #d4af37;
+  padding-bottom: 10px;
+}
+
+.gold-text {
+  color: #d4af37;
+}
+
+.stats-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card h3 {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #666;
+}
+
+.stat-card .value {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.stat-card.positive .value {
+  color: #28a745;
+}
+
+.stat-card.negative .value {
+  color: #dc3545;
+}
+
+.timeframe-tabs {
+  margin-bottom: 20px;
+}
+
+.indicators-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.indicator-item {
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+}
+
+.indicator-label {
+  margin-right: 8px;
+  color: #666;
+}
+
+.indicator-value {
+  font-weight: bold;
+}
+
+.trade-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.refresh-button {
+  margin-left: 10px;
+} 
